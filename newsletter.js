@@ -4,7 +4,7 @@ function subscribe() {
         alert('Please enter your email');
         return;
     }
-    var emails = localStorage.getItem('email');
+    var emails = localStorage.getItem('emails');
     if (emails === null) {
         emails = [];
     } else {
