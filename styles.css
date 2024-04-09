@@ -30,8 +30,16 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 1rem;
+  width: var(--width)
 }
+
+html::-webkit-scrollbar {
+  --width: 1rem;
+}
+
+
+
+
 
 html::-webkit-scrollbar-track {
   background: var(--white);

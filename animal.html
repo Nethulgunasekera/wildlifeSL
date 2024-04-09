@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sri Lankan Wildlife</title>
-
     <link rel="stylesheet" href="styles.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
   </head>
-  <body>
+  <body x-data="main">
     <header>
         <section class="home4" id="home4">
             <section class="header">
@@ -28,88 +28,90 @@
                   </section>
                 </li>
                 <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="database.html">Admin</a></li>
               </ul>
             </nav>
           </section>
           
           <section class="content">
-                <h1>Sri Lankan Animals</h1>
+                <h1 id="title1" x-text="title1" contenteditable="true"></h1>
             </section>
     </header>
 
     <section class="intro" id="intro">
         <div class="box-container">
             <div class="box">
-        <h1 class="heading">Srilankan Native Animals</h1>
+        <h1 class="heading" id="title2" x-text="title2" contenteditable="true"></h1>
         <ol>
             <li style="font-size: 18px;">
-                <strong>Asian Elephant:</strong>
+                <strong id="title3" x-text="title3" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Social Structure: Asian elephants are known for their complex social structures, living in matriarchal groups led by an experienced female.</li>
-                    <li>Conservation Challenges: Conservation efforts focus on mitigating human-elephant conflicts, protecting habitats, and preventing illegal poaching.</li>
+                    <li id="title4" x-text="title4" contenteditable="true"></li>
+                    <li id="title5" x-text="title5" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Sri Lankan Sloth Bear:</strong>
+                <strong id="title6" x-text="title6" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Unique Behaviors: Sloth bears exhibit unique behaviors like climbing trees to feed on fruits and using their long, curved claws for digging.</li>
-                    <li>Conservation Status: Classified as Vulnerable, conservation initiatives target the preservation of their habitats and prevention of illegal trade.</li>
+                    <li id="title7" x-text="title7" contenteditable="true"></li>
+                    <li id="title8" x-text="title8" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Indian Pangolin:</strong>
+                <strong id="title9" x-text="title9" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Reproductive Habits: Pangolins are solitary and have low reproductive rates, giving birth to one offspring at a time.</li>
-                    <li>Conservation Measures: Conservation efforts involve addressing the illegal trade of pangolins and protecting their habitats to ensure their survival.</li>
+                    <li id="title10" x-text="title10" contenteditable="true"></li>
+                    <li id="title11" x-text="title11" contenteditable="true"> </li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Purple-faced Langur:</strong>
+                <strong id="title12" x-text="title12" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Social Behavior: Purple-faced langurs live in social groups and exhibit a range of vocalizations for communication within the troop.</li>
-                    <li>Conservation Challenges: Habitat loss and fragmentation pose significant threats, emphasizing the need for protected areas.</li>
+                    <li id="title13" x-text="title13" contenteditable="true"></li>
+                    <li id="title14" x-text="title14" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Sri Lankan Leopard:</strong>
+                <strong id="title15" x-text="title15" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Reproductive Cycle: Female leopards have a gestation period of about 90 to 105 days, and cubs stay with their mother until they are independent.</li>
-                    <li>Conservation Initiatives: Conservation projects focus on habitat protection, anti-poaching measures, and community education to reduce human-leopard conflicts.</li>
+                    <li id="title16" x-text="title16" contenteditable="true"></li>
+                    <li id="title17" x-text="title17" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Saltwater Crocodile:</strong>
+                <strong id="title18" x-text="title18" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Ecological Role: Crocodiles play a vital role in maintaining the health of aquatic ecosystems by controlling prey populations.</li>
-                    <li>Conservation Awareness: Conservation efforts include raising awareness about the importance of these apex predators and implementing safety measures in human-populated areas.</li>
+                    <li id="title19" x-text="title19" contenteditable="true"></li>
+                    <li id="title20" x-text="title20" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Indian Star Tortoise:</strong>
+                <strong id="title21" x-text="title21" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Reproduction: Female star tortoises lay clutches of eggs, and the species is known for its slow growth rate.</li>
-                    <li>Conservation Challenges: Protection involves addressing illegal trade and establishing safe habitats for their survival.</li>
+                    <li id="title22" x-text="title22" contenteditable="true"></li>
+                    <li id="title23" x-text="title23" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Ceylon Spitting Cobra:</strong>
+                <strong id="title24" x-text="title24" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Venom Properties: The venom of the spitting cobra is potent, and spitting is a defensive behavior aimed at the eyes of potential threats.</li>
-                    <li>Conservation Role: Despite being venomous, these snakes contribute to ecosystem balance by controlling rodent populations.</li>
+                    <li id="title25" x-text="title25" contenteditable="true"></li>
+                    <li id="title26" x-text="title26" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Purple-faced Leaf Monkey:</strong>
+                <strong id="title27" x-text="title27" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Arboreal Adaptations: These leaf monkeys are well-adapted to an arboreal lifestyle, using their strong tails for balance in trees.</li>
-                    <li>Conservation Education: Conservation efforts involve educating local communities about the importance of preserving their habitats.</li>
+                    <li id="title28" x-text="title28" contenteditable="true"></li>
+                    <li id="title29" x-text="title29" contenteditable="true"></li>
                 </ul>
             </li>
             <li style="font-size: 18px;">
-                <strong>Sri Lankan Junglefowl:</strong>
+                <strong id="title30" x-text="title30" contenteditable="true"></strong>
                 <ul style="font-size: 16px;">
-                    <li>Cultural Significance: The junglefowl is culturally significant and is considered the progenitor of the domestic chicken.</li>
-                    <li>Conservation Advocacy: Conservation initiatives promote the protection of their habitats and celebrate the cultural importance of this national bird.</li>
+                    <li id="title31" x-text="title31" contenteditable="true"></li>
+                    <li id="title32" x-text="title32" contenteditable="true"></li>
                 </ul>
             </li>
         </ol>
@@ -122,7 +124,7 @@
             <div class="image">
               <img src="ele.jpg" alt="" />
               <div class="content">
-                <h3>Elephant</h3>
+                <h3 id="title33" x-text="title33" contenteditable="true"></h3>
               </div>
             </div>
           </div>
@@ -131,7 +133,7 @@
             <div class="image">
               <img src="lepo.jpg" alt="" />
               <div class="content">
-                <h3>Sri Lankan Leopard</h3>
+                <h3 id="title34" x-text="title34" contenteditable="true"></h3>
               </div>
             </div>
           </div>
@@ -140,7 +142,7 @@
             <div class="image">
               <img src="bear.jpg" alt="" />
               <div class="content">
-                <h3>Sloth Bears</h3>
+                <h3 id="title35" x-text="title35" contenteditable="true"></h3>
               </div>
             </div>
           </div>
@@ -148,7 +150,7 @@
             <div class="image">
               <img src="cobra.jpg" alt="" />
               <div class="content">
-                <h3>Ceylon Spitting Cobra</h3>
+                <h3 id="title36" x-text="title36" contenteditable="true"></h3>
               </div>
             </div>
           </div>
@@ -157,7 +159,7 @@
             <div class="image">
               <img src="monkey.jpg" alt="" />
               <div class="content">
-                <h3>Purple-faced Leaf Monkey</h3>
+                <h3 id="title37" x-text="title37" contenteditable="true"></h3>
               </div>
             </div>
           </div>
@@ -166,7 +168,7 @@
             <div class="image">
               <img src="jungl.jpg" alt="" />
               <div class="content">
-                <h3>Sri Lankan Junglefowl </h3>
+                <h3 id="title38" x-text="title38" contenteditable="true"> </h3>
               </div>
             </div>
           </div>
@@ -174,8 +176,8 @@
         <section>
         
           <div class="button-container">
-            <a href="yala.html" class="button">Yala National Park</a>
-            <a href="wilpattu.html" class="button">Wilpattu National Park </a>
+            <a href="Yala.html" class="button">Yala National Park</a>
+            <a href="Wilpattu.html" class="button">Wilpattu National Park </a>
           </div>
           
                 </section>
@@ -183,13 +185,21 @@
       <!-- footer section starts -->
     <section class="footer">
         <a href="#" class="logo">Wild Life<span>Website</span></a>
-        <p>All Rights Reserved | © 2024 Powered By Nethul Gunasekera</p>
+        <p id="title39" x-text="title39" contenteditable="true"></p>
         <div class="socials">
           <ion-icon name="logo-google"></ion-icon>
           <ion-icon name="logo-twitter"></ion-icon>
           <ion-icon name="logo-youtube"></ion-icon>
           <ion-icon name="logo-linkedin"></ion-icon>
         </div>
+        <div class="newsletter-form">
+          <h2>Subscribe to our newsletter</h2>
+          <form id="newsletter-subscribe-form">
+            <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+    
     
       </section>
       <!-- footer section ends -->
@@ -203,6 +213,7 @@
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
         ></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="animal.js"></script>
         <script src="script.js"></script>
       </body>
     </html>

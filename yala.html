@@ -7,8 +7,9 @@
     <title>Sri Lankan Wildlife</title>
 
     <link rel="stylesheet" href="yala.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
   </head>
-  <body>
+  <body x-data="main">
     <header>
         <section class="home" id="home">
             <section class="header">
@@ -28,37 +29,32 @@
                   </section>
                 </li>
                 <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="database.html">Admin</a></li>
               </ul>
             </nav>
           </section>
 
           <section class="content">
-            <h1>yala National Park</h1>
+            <h1 id="title1" x-text="title1" contenteditable="true"></h1>
     </section>
 </header>
 
 <section class="history">
-  <h1 id="wilpattu-title">Unveiling the Past: Yala National Park's Rich History</h1>
+  <h1 id="wilpattu-title" id="title2" x-text="title2" contenteditable="true"></h1>
    
-  <p>Yala, one of Sri Lanka's oldest national parks, achieved wildlife sanctuary status in 1900 and was formally established as a national park in 1938, 
-      making it one of the first two national parks in the country, alongside Wilpattu. Nestled in the heart of Yala is the ancient Buddhist temple Sithulpawa, 
-      believed to have roots dating back 2,000 years. Renowned for its rich biodiversity, Yala is home to 44 mammal species and 215 bird species, playing a crucial role in 
-      the conservation of Sri Lankan elephants, leopards, and aquatic birds. The park boasts an extraordinary concentration of leopards, making it one of the prime locations 
-      globally for these elusive big cats. Situated in a dry semi-arid region, Yala experiences an average annual rainfall ranging from 500 to 775 millimeters, with temperatures 
-      varying between 26.4°C in January and 30°C in April. Additionally, the park features natural rock pools that provide a perennial water source and is bordered by the sea 
-      to the southeast, showcasing stunning natural beaches and sand dunes. Explore the wonders of Yala, where history, biodiversity, and natural beauty converge in an 
-      unforgettable experience.</p>
+  <p id="title3" x-text="title3" contenteditable="true"></p>
 
   <ul>
-      <li><strong>Location:</strong> Yala is situated in Sri Lanka's south-east, along the Indian Ocean, covering nearly 130,000 hectares.</li><br> 
-      <li><strong>Historical Transformation:</strong> Initially used as a hunting ground for the elite during British rule, Yala has undergone a significant transformation into a conservation area, reflecting a shift in attitudes towards wildlife preservation.</li><br>
-      <li><strong>Recommended Visiting Period:</strong> The period between February and July is optimal for visitors. Lower water levels during this time encourage animals to emerge into open areas, increasing the likelihood of wildlife sightings.</li><br>
+      <li id="title4" x-text="title4" contenteditable="true"><strong id="title5" x-text="title5" contenteditable="true"></strong> </li><br> 
+      <li id="title6" x-text="title6" contenteditable="true"><strong id="title7" x-text="title7" contenteditable="true"></strong> </li><br>
+      <li id="title8" x-text="title8" contenteditable="true"><strong id="title9" x-text="title9" contenteditable="true"></strong> </li><br>
   </ul>
         
 </section>
 
-<h2 id="wilpattu-img-title">Images from the Wonders of Yala National Park</h2>
-  <h3 id="wilpattu-img-subtitle">Some animals that are often seen in Yala National Park include:</h3>
+<h2 id="wilpattu-img-title" id="title10" x-text="title10" contenteditable="true"></h2>
+  <h3 id="wilpattu-img-subtitle" id="title11" x-text="title11" contenteditable="true"></h3>
 <section class="wilpattu-subimgs">
   <img src="yalllll1.avif" alt="Yala SubImg 1">
   <img src="yallll3.jpeg" alt="Yala SubImg 2">
@@ -67,29 +63,23 @@
 
 <section class="main-animalbox">
 <section class="animal-box">
-  <h2>Peacock <br><i>(Pavo cristatus)</i></h2>
-  <p>
-      The peacock is a beautiful bird with a life span of 10-25 years. It inhabits forests and grasslands,
-      feeding on insects, plants, and small animals. Known for their vibrant and colorful plumage,
-      peacocks are a sight to behold in nature.
+  <h2 id="title12" x-text="title12" contenteditable="true"> <br><i id="title13" x-text="title13" contenteditable="true"></i></h2>
+  <p id="title14" x-text="title14" contenteditable="true">
+      
   </p>
 </section>
 
 <section class="animal-box">
-  <h2>Saltwater Crocodile <br><i>(Crocodylus porosus)</i></h2>
-  <p>
-      The saltwater crocodile, with a remarkable life span of 70-100 years, thrives in coastal areas and mangrove swamps.
-      Its diet includes fish, mammals, and birds. As the largest living reptile, saltwater crocodiles are recognized
-      for their powerful jaws and impressive presence in aquatic environments.
+  <h2 id="title15" x-text="title15" contenteditable="true"> <br><i id="title16" x-text="title16" contenteditable="true"></i></h2>
+  <p id="title17" x-text="title17" contenteditable="true">
+     
   </p>
 </section>
 
 <section class="animal-box">
-  <h2>Sri Lankan Sloth Bear <br><i>(Melursus ursinus inornatus)</i></h2>
-  <p>
-      The sloth bear, living 20-25 years, is found in forests and grasslands. Feeding on insects, fruits, and termites,
-      sloth bears have a distinctive shaggy coat and a white V-shaped mark on their chest. These bears are fascinating
-      creatures with unique characteristics in the animal kingdom.
+  <h2 id="title18" x-text="title18" contenteditable="true"> <br><i id="title19" x-text="title19" contenteditable="true"></i></h2>
+  <p id="title20" x-text="title20" contenteditable="true">
+      
   </p>
 </section>
 </section>
@@ -98,13 +88,21 @@
 <!-- footer section starts -->
 <section class="footer">
 <a href="#" class="logo">Wild Life<span>Website</span></a>
-<p>All Rights Reserved | © 2024 Powered By Nethul Gunasekera</p>
+<p id="title21" x-text="title21" contenteditable="true"></p>
 <div class="socials">
   <ion-icon name="logo-google"></ion-icon>
   <ion-icon name="logo-twitter"></ion-icon>
   <ion-icon name="logo-youtube"></ion-icon>
   <ion-icon name="logo-linkedin"></ion-icon>
 </div>
+<div class="newsletter-form">
+  <h2>Subscribe to our newsletter</h2>
+  <form id="newsletter-subscribe-form">
+    <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+    <button type="submit">Subscribe</button>
+  </form>
+</div>
+
 
 </section>
 <!-- footer section ends -->
@@ -118,6 +116,7 @@
   src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
 ></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="yala.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

@@ -7,8 +7,9 @@
     <title>Sri Lankan Wildlife</title>
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
   </head>
-  <body>
+  <body x-data="main">
     <header>
         <section class="home" id="home">
             <section class="header">
@@ -28,12 +29,14 @@
                   </section>
                 </li>
                 <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="database.html">Admin</a></li>
               </ul>
             </nav>
           </section>
 
           <section class="content">
-            <h1>Introduction To Sri Lankan Wildlife</h1>
+            <h1 id="title1" x-text="title1" contenteditable="true"></h1>
     </section>
 </header>
         
@@ -44,17 +47,7 @@
 <section class="intro" id="intro">
 <div class="box-container">
   <div class="box">
-    <p>Welcome to the captivating realm of Sri Lankan wildlife, where the intricate web of biodiversity intertwines with the vibrant tapestry of the island's landscapes. Sri Lanka, a jewel in the Indian Ocean, unfolds a story of ecological diversity that spans from dense rainforests to expansive savannahs, creating a haven for an astonishing array of flora and fauna.
-
-Diverse Biogeography:
-Sri Lanka's unique geographical setting, with its central highlands, coastal plains, and mountain ranges, gives rise to a myriad of ecosystems. The island's biodiversity is further enriched by its distinct climatic zones, fostering a diverse range of habitats such as montane forests, wetlands, and arid zones.
-
-Endemic Marvels:
-At the heart of Sri Lanka's wildlife narrative lies a treasure trove of endemic species found nowhere else on Earth. From the strikingly adorned Sri Lankan Junglefowl, the national bird, to the vibrant and elusive Ceylon Frogmouth, the island's endemic flora and fauna reflect its isolation and evolution over millennia.
-
-Mammalian Wonders:
-Sri Lanka's national parks and reserves are home to an impressive array of mammals. The majestic Asian elephant, the largest land mammal on the island, roams freely, while the enigmatic Sri Lankan leopard, a subspecies indigenous to the region, prowls through the dense jungles. Sambar deer, spotted deer, and endemic primates, such as the Purple-faced Langur and Toque Macaque, add to the tapestry of Sri Lankan mammalian biodiversity.
-
+    <p id="title2" x-text="title2" contenteditable="true">
 
         
     </p>
@@ -62,17 +55,7 @@ Sri Lanka's national parks and reserves are home to an impressive array of mamma
   </div>
 
   <div class="box">
-    <p>
-        Avian Diversity:
-For bird enthusiasts, Sri Lanka is a paradise with over 450 avian species. Wetlands like Bundala National Park attract migratory birds, while Sinharaja Forest Reserve resonates with the melodious calls of endemic birds like the Sri Lanka Blue Magpie and Yellow-fronted Barbet.
-
-Protected Reserves and Sanctuaries:
-The commitment to conservation is evident in the establishment of protected areas like Yala National Park, Wilpattu National Park, and Sinharaja Forest Reserve. These sanctuaries not only serve as vital habitats for wildlife but also provide opportunities for sustainable eco-tourism.
-
-Conservation Initiatives:
-Sri Lanka takes proactive measures to safeguard its natural heritage. Conservation initiatives include habitat restoration, anti-poaching efforts, and community engagement projects, fostering a harmonious coexistence between humans and wildlife.
-
-Embark on a journey of discovery as we delve into the intricate ecosystems, conservation endeavors, and untold stories that define the captivating world of Sri Lankan wildlife. Every creature, from the smallest amphibian to the grandest elephant, invites you to explore and appreciate the diverse wonders that make Sri Lanka a sanctuary for nature enthusiasts and conservationists alike.
+    <p id="title3" x-text="title3" contenteditable="true">
         
     </p>
     </div>
@@ -81,14 +64,14 @@ Embark on a journey of discovery as we delve into the intricate ecosystems, cons
 </section>
 
 
-<section class="featured-wildlife" id="featured-wildlife">
-    <h1 class="heading">Rainforests And National Parks</h1>
+<section class="featured-wildlife" id="featured-wildlife" >
+    <h1 class="heading" id="title4" x-text="title4" contenteditable="true"></h1>
     <div class="container1">
     <div class="left1"></div>
     <div class="right">
     <div class="content">
-        <h3>Sinharaja Rainforest:</h3>
-        <p>Nestled in Sri Lanka's southwest, the UNESCO World Heritage Site, Sinharaja Rainforest, spans 18,900 hectares and harbors an astounding array of endemic flora and fauna. Home to elusive species like the purple-faced langur and the rare Sri Lankan leopard, alongside a multitude of vibrant birds like the Sri Lanka Blue Magpie, this sanctuary captivates nature lovers with its unique biodiversity. Its conservation efforts and guided nature trails offer visitors immersive experiences, inviting them to explore the untouched beauty and delicate ecosystems of this ancient tropical haven. Sinharaja Rainforest stands as a testament to Sri Lanka's commitment to preserving its natural heritage for future generations.
+        <h3 id="title5" x-text="title5" contenteditable="true"></h3>
+        <p id="title6" x-text="title6" contenteditable="true">
         </p>
     </div>
     </div>
@@ -98,8 +81,8 @@ Embark on a journey of discovery as we delve into the intricate ecosystems, cons
     <div class="left2"></div>
     <div class="right">
     <div class="content">
-        <h3>Minneriya National Park</h3>
-        <p>Nestled in Sri Lanka's southwest, the UNESCO World Heritage Site, Sinharaja Rainforest, spans 18,900 hectares and harbors an astounding array of endemic flora and fauna. Home to elusive species like the purple-faced langur and the rare Sri Lankan leopard, alongside a multitude of vibrant birds like the Sri Lanka Blue Magpie, this sanctuary captivates nature lovers with its unique biodiversity. Its conservation efforts and guided nature trails offer visitors immersive experiences, inviting them to explore the untouched beauty and delicate ecosystems of this ancient tropical haven. Sinharaja Rainforest stands as a testament to Sri Lanka's commitment to preserving its natural heritage for future generations.
+        <h3 id="title7" x-text="title7" contenteditable="true"></h3>
+        <p id="title8" x-text="title8" contenteditable="true">
         </p>
     </div>
     </div>
@@ -109,8 +92,8 @@ Embark on a journey of discovery as we delve into the intricate ecosystems, cons
     <div class="left3"></div>
     <div class="right">
     <div class="content">
-        <h3>Udawalawe National Park:</h3>
-        <p>Nestled in Sri Lanka's southwest, the UNESCO World Heritage Site, Sinharaja Rainforest, spans 18,900 hectares and harbors an astounding array of endemic flora and fauna. Home to elusive species like the purple-faced langur and the rare Sri Lankan leopard, alongside a multitude of vibrant birds like the Sri Lanka Blue Magpie, this sanctuary captivates nature lovers with its unique biodiversity. Its conservation efforts and guided nature trails offer visitors immersive experiences, inviting them to explore the untouched beauty and delicate ecosystems of this ancient tropical haven. Sinharaja Rainforest stands as a testament to Sri Lanka's commitment to preserving its natural heritage for future generations.
+        <h3 id="title9" x-text="title9" contenteditable="true"></h3>
+        <p id="title10" x-text="title10" contenteditable="true">
         </p>
     </div>
     </div>
@@ -120,8 +103,8 @@ Embark on a journey of discovery as we delve into the intricate ecosystems, cons
     <div class="left4"></div>
     <div class="right">
     <div class="content">
-        <h3>Horten Thanna National Park:</h3>
-        <p>Nestled in Sri Lanka's southwest, the UNESCO World Heritage Site, Sinharaja Rainforest, spans 18,900 hectares and harbors an astounding array of endemic flora and fauna. Home to elusive species like the purple-faced langur and the rare Sri Lankan leopard, alongside a multitude of vibrant birds like the Sri Lanka Blue Magpie, this sanctuary captivates nature lovers with its unique biodiversity. Its conservation efforts and guided nature trails offer visitors immersive experiences, inviting them to explore the untouched beauty and delicate ecosystems of this ancient tropical haven. Sinharaja Rainforest stands as a testament to Sri Lanka's commitment to preserving its natural heritage for future generations.
+        <h3 id="title11" x-text="title11" contenteditable="true"></h3>
+        <p id="title12" x-text="title12" contenteditable="true">
         </p>
     </div>
     </div>
@@ -132,13 +115,21 @@ Embark on a journey of discovery as we delve into the intricate ecosystems, cons
 <!-- footer section starts -->
 <section class="footer">
 <a href="#" class="logo">Wild Life<span>Website</span></a>
-<p>All Rights Reserved | © 2024 Powered By Nethul Gunasekera</p>
+<p id="title13" x-text="title13" contenteditable="true"></p>
 <div class="socials">
   <ion-icon name="logo-google"></ion-icon>
   <ion-icon name="logo-twitter"></ion-icon>
   <ion-icon name="logo-youtube"></ion-icon>
   <ion-icon name="logo-linkedin"></ion-icon>
 </div>
+<div class="newsletter-form">
+  <h2>Subscribe to our newsletter</h2>
+  <form id="newsletter-subscribe-form">
+    <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+    <button type="submit">Subscribe</button>
+  </form>
+</div>
+
 
 </section>
 <!-- footer section ends -->
@@ -152,6 +143,7 @@ Embark on a journey of discovery as we delve into the intricate ecosystems, cons
   src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
 ></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="intro.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
